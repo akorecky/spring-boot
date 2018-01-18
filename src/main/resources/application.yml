@@ -1,0 +1,12 @@
+---
+logging:
+  level:
+    com.example: DEBUG
+
+hello:
+  greeting: Bonjour
+  
+# disable security for management endpoints:
+management:
+  security:
+    enabled: false
